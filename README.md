@@ -16,10 +16,10 @@ Run the following command in your Node-RED user directory - typically `~/.node-r
 
         npm install node-red-contrib-plugin-chagpt
 
-Set the OpenAI key to `OPENAI_API_KEY` and your organization id to  `OPENAI_ORG` as the environment variable. In macOS or Linux environment, you can use the `export` command to set the environment variable.
+Set the OpenAI key to `OPENAI_API_KEY` and your organization identifier to  `OPENAI_ORG` as the environment variable. In macOS or Linux environment, you can use the `export` command to set the environment variable.
 
         export OPENAI_API_KEY=<API key>
-        export OPENAI_ORG=<API key>
+        export OPENAI_ORG=<ORG ID>
 
 The API key can be obtained from the OpenAI website. https://platform.openai.com/account/api-keys
 
