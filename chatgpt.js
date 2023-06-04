@@ -9,7 +9,8 @@ module.exports = async function (RED) {
                 throw new Error('cannot get flow data');
             }
             const openai = new OpenAIApi(new Configuration({
-                apiKey: process.env.OPENAI_API_KEY
+                organization: process.env.OPENAI_ORG,
+                apiKey: process.env.OPENAI_API_KEY,
             }));
             const request = {
                 model: "gpt-3.5-turbo",
